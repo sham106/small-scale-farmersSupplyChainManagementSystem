@@ -1,1 +1,2 @@
 # small-scale-farmersSupplyChainManagementSystem
+This is a comprehensive solution designed to streamline and optimize the supply chain operations of small scale farmers. It provides a digital platform that enables farmers to manage various aspects of their supply chain, from production and inventory management to order processing and logistics. By leveraging the power of technology, the system aims to enhance efficiency, increase profitability, and improve collaboration within the agricultural ecosystem.
