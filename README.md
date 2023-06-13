@@ -52,3 +52,16 @@ Ensure the system can handle intermittent or low-bandwidth connectivity.
 #### Localization and Language:
 * Support localization by considering local languages, units of measurement, and date formats.
 * Ensure the system accommodates multilingual capabilities, allowing users to interact in their preferred language.
+## Technology Stack:
+* .NET
+* Python
+## How System Components Interact and collaborate 
+* Farmer management and inventory management components collaborate to ensure accurate and up-to-date information on farmers and their available inventory.
+* Order processing component interacts with both farmer management and inventory management components to validate orders, check inventory availability, and calculate pricing.
+* Logistics management component collaborates with the order processing component to plan and schedule product shipments based on confirmed orders.
+* Reporting and analytics component utilizes data from various components to generate insightful reports, enabling users to monitor performance, identify trends, and make data-driven decisions.
+## Data Flow and Communication
+* Farmers input and update their profile information and available inventory using the farmer management and inventory management components.
+* Buyers or distributors place orders through the order processing component, which communicates with the inventory management component to check product availability.
+* The logistics management component receives order details from the order processing component and coordinates the transportation and delivery of products.
+* Data from all components, including farmer profiles, inventory levels, order details, and logistics information, is aggregated and utilized by the reporting and analytics component to generate reports and provide insights.
