@@ -8,3 +8,11 @@ This is a comprehensive solution designed to streamline and optimize the supply 
 ## Technology Stack and Distributed Application Architecture:
 I will be building this system  using a combination of .NET and Python, utilizing  the strengths of both technologies. The choice of .NET ensures robustness, scalability, and seamless integration with existing enterprise systems. Python, on the other hand, offers flexibility, simplicity, and a rich ecosystem of libraries for data processing and analysis.
 The system adopts a distributed application architecture to enable heterogeneous clients to access and utilize the system. It utilizes the client-server model, where the frontend interfaces (developed using .NET) interact with the backend components (developed using Python) through APIs and data exchange mechanisms. This architecture ensures that the system is scalable, responsive, and capable of handling concurrent requests from multiple clients.
+## System Architecture
+Overall Architecture:
+The system follows a client-server architecture, where clients interact with the server-side components to access and utilize the system's functionalities.
+The architecture comprises multiple layers, including the presentation layer, business logic layer, and data storage layer.
+Components and Interaction:
+* Presentation Layer: This layer encompasses the user interfaces that small-scale farmers and other users interact with. It includes web or mobile interfaces developed using technologies like .NET and Python.
+* Business Logic Layer: This layer contains the core application logic and processing. It handles tasks such as farmer management, inventory management, order processing, logistics coordination, and reporting. It is implemented using .NET and Python, utilizing their respective frameworks and libraries.
+* Data Storage Layer: This layer involves the database where data is stored. It may utilize a relational database management system (RDBMS) like SQL Server or PostgreSQL to store information such as farmer profiles, inventory data, order details, and system configuration.
