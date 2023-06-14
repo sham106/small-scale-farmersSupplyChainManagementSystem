@@ -24,7 +24,6 @@ Role of Distributed Application Systems:
 ### Farmer Management:
 * Registration and profile management for farmers.
 * Capture and maintain farmer details, including contact information and farm location.
-* Ability to track and manage farmer certifications or licenses, if applicable.
 ### Inventory Management:
 * Track and manage inventory of agricultural inputs (seeds, fertilizers, pesticides, etc.) and harvested produce.
 * Provide real-time visibility into inventory levels, including quantity, quality, and expiration dates.
@@ -127,3 +126,17 @@ Design Principles: The interface will utilize charts, graphs, and tables to pres
 * Minimalistic Design: The design will follow a clean and minimalistic approach, focusing on essential elements and reducing visual clutter to enhance clarity and ease of use.
 * Consistency: Consistent design elements, such as color schemes, typography, and icons, will be employed throughout the user interfaces to provide a cohesive and familiar experience.
 * Accessibility: Usability considerations will include proper contrast, font sizes, and accessibility features to ensure that the interfaces are accessible to users with different abilities.
+## Database Design
+* Farmer Table: This table stores information about small-scale farmers, including unique farmer IDs, names, contact details,location, and other relevant attributes.
+* Product Table: This table contains details about the products available in the system, such as product IDs, names, descriptions, pricing, and other product-specific attributes.
+* Inventory Table: This table tracks the inventory levels of each product for each farmer. It includes attributes such as farmer ID, product ID, quantity, and timestamps to record updates and changes.
+* Order Table: This table captures order information, including order IDs, farmer IDs, buyer IDs, product IDs, quantities, order status, and timestamps.
+* Delivery Table: This table stores information about product deliveries, including delivery IDs, order IDs, delivery status, delivery dates, and other relevant details.
+* User Table: This table stores information about system users, including user IDs, usernames, passwords (hashed), roles, and other user-specific attributes. It allows for user authentication and access control within the system.
+* Supplier Table: suppliers who provide inputs or raw materials to farmers, will  have a table to store supplier details such as supplier IDs, names, contact information, and other relevant attributes.
+* Purchase Table: This table tracks the purchases made by farmers from suppliers. It includes attributes such as purchase IDs, farmer IDs, supplier IDs, purchase dates, payment information, and other relevant details.
+* Payment Table: This table stores payment-related information, including payment IDs, order IDs, payment amounts, payment status, payment dates, and other payment-specific attributes.
+* Shipment Table: This table is used to store shipment details such as shipment IDs, delivery company information, tracking numbers, shipment statuses, and other relevant information.
+* Pricing Table: This table is used to store pricing information for different products or product categories. It may include attributes such as product IDs, pricing tiers, pricing start/end dates, and associated prices.
+<!-- Audit Log Table: This table can be used to record system activities and changes, including user actions, data modifications, and system events. It helps track and maintain a history of system operations for auditing and troubleshooting purposes. -->
+* Notifications Table: This table stores notification details such as notification IDs, recipient IDs, notification content, timestamps, and delivery statuses.
