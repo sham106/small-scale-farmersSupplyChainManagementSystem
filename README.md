@@ -65,3 +65,43 @@ Ensure the system can handle intermittent or low-bandwidth connectivity.
 * Buyers or distributors place orders through the order processing component, which communicates with the inventory management component to check product availability.
 * The logistics management component receives order details from the order processing component and coordinates the transportation and delivery of products.
 * Data from all components, including farmer profiles, inventory levels, order details, and logistics information, is aggregated and utilized by the reporting and analytics component to generate reports and provide insights.
+## System Work Flow
+### Farmer Registration:
+The process begins with small-scale farmers registering themselves on the supply chain management system.
+Farmers provide necessary details such as personal information, contact details, and farming practices.
+Upon successful registration, they gain access to their farmer profile.
+### Farmer Profile Setup:
+Farmers set up and manage their profile within the system, updating information like product offerings, farming techniques, and delivery preferences.
+This information helps buyers and the system to understand their capabilities and requirements.
+### Manage Available Inventory:
+Farmers input and manage their available inventory, including crops, livestock, and other farming resources.
+They can update inventory quantities, add new products, or remove products that are no longer available.
+### Receive Order Requests:
+Farmers receive order requests from buyers or distributors through the system.
+Order requests specify the desired products, quantities, and delivery details.
+### Order Validation:
+Farmers validate the order requests, ensuring that the requested products are within their available inventory.
+They also verify other order-specific requirements like pricing, packaging, and labeling.
+### Check Inventory Levels:
+Farmers check the inventory levels to confirm product availability.
+If the requested quantities are available, the order moves forward to the next stage.
+### Generate Order List:
+Farmers generate an order list, consolidating all validated and available orders.
+The order list provides a comprehensive view of the products, quantities, and associated details.
+### Prepare Product Batch:
+Based on the order list, farmers prepare the required product batch by gathering the requested items from their inventory.
+### Product Packaging & Labeling:
+Farmers package the products according to the specified requirements.
+They ensure proper labeling, including product details, expiration dates, and any required certifications.
+### Coordinate Delivery:
+Farmers coordinate the delivery of the prepared product batch with the logistics team or the designated transportation provider.
+Delivery arrangements are made based on the buyer's location and delivery preferences.
+### Delivery & Shipment:
+The product batch is shipped or transported to the specified buyer location or distribution center.
+Farmers track the shipment and ensure that the products reach their destination safely.
+### Confirm Delivery:
+Upon the successful delivery of the product batch, farmers confirm the delivery in the system.
+This confirmation ensures that the buyer acknowledges receipt of the products.
+### Invoice & Payment:
+Farmers generate invoices for the delivered products and initiate the payment process.
+The system may handle payment calculations, generate invoices, and facilitate secure payment methods.
